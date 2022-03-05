@@ -9,3 +9,20 @@ Defines the API reponse format, `common.ts` lays out the base of the API respons
 
 ##### query
 Defines the query string for some specific API paths
+
+
+#### Available APIs
+
+```
+- GET /api/{storeId}/order
+    Fetch orders given storeId
+
+- GET /api/{storeId}/trade
+    Fetch trade given storeId
+
+- GET /api/{storeId}/stats
+    Fetch market place stats given storeId
+
+- GET /api/{storeId}/stats/{mint}
+    Fetch trade stats given Nft Mint
+```
