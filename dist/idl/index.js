@@ -26,4 +26,3 @@ Object.defineProperty(exports, "__esModule", { value: true });
 exports.idl = void 0;
 const idl = __importStar(require("./liqnft_market.json"));
 exports.idl = idl;
-//# sourceMappingURL=index.js.map
