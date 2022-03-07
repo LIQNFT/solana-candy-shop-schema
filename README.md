@@ -14,15 +14,15 @@ Defines the query string for some specific API paths
 #### Available APIs
 
 ```
-- GET /api/{storeId}/order
+- GET /api/order/{storeId}
     Fetch orders given storeId
 
-- GET /api/{storeId}/trade
-    Fetch trade given storeId
+- GET /api/trade/{storeId}
+    Fetch trades given storeId
 
-- GET /api/{storeId}/stats
+- GET /api/stats/{storeId}
     Fetch market place stats given storeId
 
-- GET /api/{storeId}/stats/{mint}
+- GET /api/stats/{storeId}/{mint}
     Fetch trade stats given Nft Mint
 ```

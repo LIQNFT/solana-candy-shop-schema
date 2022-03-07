@@ -1,10 +1,14 @@
-import { Side } from "../response";
+import { Side, Status } from "../response";
 export interface OrderQs {
-    side: Side | null;
-    ticker: string | null;
-    status: string | null;
+    offset?: number;
+    limit?: number;
+    filterArr?: OrderFilter[];
+}
+export interface OrderFilter {
+    side: Side;
+    status: Status;
 }
 export interface TradeQs {
-    seller: string | null;
-    buyer: string | null;
+    offset?: number;
+    limit?: number;
 }

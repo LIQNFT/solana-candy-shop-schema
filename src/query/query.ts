@@ -1,15 +1,20 @@
-import { Side } from "../response";
+import { Side, Status } from "../response";
 
-// GET /api/{storeId}/order
+// GET /api/order/{storeId}
 export interface OrderQs {
-    side: Side | null,
-    ticker: string | null,
-    status: string | null
+    offset?: number;
+    limit?: number;
+    filterArr?: OrderFilter[];
+}
+
+export interface OrderFilter {
+    side: Side;
+    status: Status;
 }
 
 
-// GET /api/{storeId}/trade
+// GET /api/trade/{storeId}
 export interface TradeQs {
-    seller: string | null,
-    buyer: string | null
+    offset?: number;
+    limit?: number;
 }
