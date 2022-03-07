@@ -1,4 +1,14 @@
-export type Side = "buy" | "sell"
+export enum Side {
+    BUY,
+    SELL
+}
+
+export enum Status {
+    OPEN,
+    FILLED,
+    UNEXECUTABLE
+}
+
 export interface Order {
     side: Side;
     ticker: string;
@@ -8,7 +18,7 @@ export interface Order {
     tokenAccount: string;
     tokenMint: string;
     tradeState: string;
-    status: string;
+    status: Status;
     walletAddress: string;
     txHash: string;
 }
