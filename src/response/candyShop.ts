@@ -1,4 +1,7 @@
 export interface CandyShop {
     creator: string;
-    split: string;
+    feeRate: string;
+    feeSplit: string;
+    treasuryAddress: string;
+    feeAccountAddress: string
 }

@@ -16,7 +16,11 @@ export interface Order {
     amount: string;
     edition: number | null;
     tokenAccount: string;
+    metadata: string;
     tokenMint: string;
+    nftUri: string;
+    nftImageLink: string | null;
+    nftAnimationLink: string | null;
     tradeState: string;
     status: Status;
     walletAddress: string;

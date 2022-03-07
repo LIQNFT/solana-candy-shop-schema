@@ -1,9 +1,12 @@
 export interface Trade {
+    ticker: string;
     price: string;
     amount: string;
+    edition: number | null;
     tokenAccount: string;
     tokenMint: string;
-    seller: string;
+    sellerAddress: string;
     buyer: string;
-    txHash: string;
+    buyerAddress: string;
+    txHashAtCreation: string;
 }
