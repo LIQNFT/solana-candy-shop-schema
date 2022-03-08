@@ -11,6 +11,7 @@ export declare enum Status {
 export interface Order {
     side: Side;
     ticker: string;
+    name: string;
     price: string;
     amount: string;
     edition: number | null;
