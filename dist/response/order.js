@@ -11,4 +11,5 @@ var Status;
     Status[Status["OPEN"] = 0] = "OPEN";
     Status[Status["FILLED"] = 1] = "FILLED";
     Status[Status["UNEXECUTABLE"] = 2] = "UNEXECUTABLE";
+    Status[Status["CANCELLED"] = 3] = "CANCELLED";
 })(Status = exports.Status || (exports.Status = {}));

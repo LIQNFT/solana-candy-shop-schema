@@ -6,7 +6,8 @@ export enum Side {
 export enum Status {
     OPEN,
     FILLED,
-    UNEXECUTABLE
+    UNEXECUTABLE,
+    CANCELLED
 }
 
 export interface Order {

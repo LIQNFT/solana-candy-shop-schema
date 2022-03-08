@@ -5,7 +5,8 @@ export declare enum Side {
 export declare enum Status {
     OPEN = 0,
     FILLED = 1,
-    UNEXECUTABLE = 2
+    UNEXECUTABLE = 2,
+    CANCELLED = 3
 }
 export interface Order {
     side: Side;
