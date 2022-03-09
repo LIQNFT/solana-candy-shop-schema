@@ -18,6 +18,7 @@ export interface Order {
     tokenAccount: string;
     metadata: string;
     tokenMint: string;
+    nftDescription: string;
     nftUri: string;
     nftImageLink: string | null;
     nftAnimationLink: string | null;
