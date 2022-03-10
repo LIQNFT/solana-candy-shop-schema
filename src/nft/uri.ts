@@ -7,6 +7,7 @@ export interface nftUriInfo {
   animation_url: string | undefined;
   attributes: { [key: string]: string }[];
   external_url: string;
+  properties: object;
 }
 
 

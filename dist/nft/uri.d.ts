@@ -9,4 +9,5 @@ export interface nftUriInfo {
         [key: string]: string;
     }[];
     external_url: string;
+    properties: object;
 }
