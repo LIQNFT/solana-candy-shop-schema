@@ -19,3 +19,4 @@ __exportStar(require("./order"), exports);
 __exportStar(require("./stats"), exports);
 __exportStar(require("./trade"), exports);
 __exportStar(require("./common"), exports);
+__exportStar(require("./whitelistNft"), exports);
