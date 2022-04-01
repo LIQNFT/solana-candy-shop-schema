@@ -1,7 +1,7 @@
 export interface ShopStats {
-    floorPrice: string;
+    floorPrice: string | null;
     totalVolume: string;
-    averageSalesPrice: string;
+    averageSalesPrice: string | null;
     totalListed: string;
 }
 
