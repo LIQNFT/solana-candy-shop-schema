@@ -1,5 +1,11 @@
+export interface NftCreator {
+  address: string;
+  share: number;
+  verified: number;
+}
 export interface WhitelistNft {
-  verifiedCreators: string[];
-  symbol: string;
   candyShopAddress: string;
+  creators: NftCreator[];
+  symbol: string;
+  identifier: string;
 }
