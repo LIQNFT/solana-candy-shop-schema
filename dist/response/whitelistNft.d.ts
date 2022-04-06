@@ -1,8 +1,4 @@
-export interface NftCreator {
-    address: string;
-    share: number;
-    verified: number;
-}
+import { NftCreator } from "../nft";
 export interface WhitelistNft {
     candyShopAddress: string;
     creators: NftCreator[];

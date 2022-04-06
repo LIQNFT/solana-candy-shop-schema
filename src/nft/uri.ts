@@ -10,7 +10,6 @@ export interface nftUriInfo {
   properties: object;
 }
 
-
 // {
 //   "name":"LIQ’s Voyage - Solana",
 //   "symbol":"SOLAND",

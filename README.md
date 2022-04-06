@@ -33,6 +33,9 @@ Defines the query string for some specific API paths
 
 - GET /api/shop/wlNfts/{storeId}
     Fetch shop whitelist nft
+
+- GET /api/nft/{tokenMint}
+    Fetch nft info by token mint
 ```
 
 #### Publish package
