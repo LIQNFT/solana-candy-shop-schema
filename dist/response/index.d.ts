@@ -3,4 +3,5 @@ export * from "./order";
 export * from "./stats";
 export * from "./trade";
 export * from "./common";
+export * from "./nft";
 export * from "./whitelistNft";
