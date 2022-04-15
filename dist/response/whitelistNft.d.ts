@@ -5,4 +5,5 @@ export interface WhitelistNft {
     creators: NftCreator[];
     symbol: string;
     identifier: string;
+    createdAt: Date;
 }
