@@ -4,6 +4,8 @@ export interface CandyShop {
     treasuryAddress: string;
     treasuryMint: string;
     feeAccountAddress: string;
+    feeSplit: number;
+    feeRate: number;
     txHashAtCreation: string;
     hasWhitelist: number;
 }
