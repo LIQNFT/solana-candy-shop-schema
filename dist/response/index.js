@@ -21,3 +21,4 @@ __exportStar(require("./trade"), exports);
 __exportStar(require("./common"), exports);
 __exportStar(require("./nft"), exports);
 __exportStar(require("./whitelistNft"), exports);
+__exportStar(require("./status"), exports);
