@@ -1,4 +1,9 @@
 export interface ShopStatus {
-  latestOrderAt: Date;
-  latestTradeAt: Date;
+  timestamp: number;
+}
+
+export enum ShopAction {
+  SELL = "SELL",
+  BUY = "BUY",
+  CANCEL = "CANCEL",
 }
