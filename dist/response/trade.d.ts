@@ -9,4 +9,7 @@ export interface Trade {
     buyer: string;
     buyerAddress: string;
     txHashAtCreation: string;
+    nftName: string;
+    nftImageUrl: string;
+    createdAt: Date;
 }
