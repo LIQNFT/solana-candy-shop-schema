@@ -36,4 +36,8 @@ export interface Order {
   // Current owner
   walletAddress: string;
   txHash: string;
+
+  // Candy Shop information
+  treasuryMint: string;
+  candyShopCreatorAddress: string;
 }
