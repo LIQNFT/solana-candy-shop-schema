@@ -26,4 +26,6 @@ export interface Order {
     status: Status;
     walletAddress: string;
     txHash: string;
+    treasuryMint: string;
+    candyShopCreatorAddress: string;
 }
