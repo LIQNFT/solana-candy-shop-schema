@@ -16,5 +16,4 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", { value: true });
 __exportStar(require("./response"), exports);
 __exportStar(require("./query"), exports);
-__exportStar(require("./idl"), exports);
 __exportStar(require("./nft"), exports);
