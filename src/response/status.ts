@@ -1,4 +1,5 @@
 export interface ShopStatus {
+  action: ShopAction,
   timestamp: number;
 }
 
