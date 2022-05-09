@@ -1,9 +1,8 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.ShopAction = void 0;
-var ShopAction;
-(function (ShopAction) {
-    ShopAction["SELL"] = "SELL";
-    ShopAction["BUY"] = "BUY";
-    ShopAction["CANCEL"] = "CANCEL";
-})(ShopAction = exports.ShopAction || (exports.ShopAction = {}));
+exports.ShopStatusType = void 0;
+var ShopStatusType;
+(function (ShopStatusType) {
+    ShopStatusType["Order"] = "ORDER";
+    ShopStatusType["Trade"] = "TRADE";
+})(ShopStatusType = exports.ShopStatusType || (exports.ShopStatusType = {}));

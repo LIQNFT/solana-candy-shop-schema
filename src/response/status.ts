@@ -1,10 +1,9 @@
 export interface ShopStatus {
-  action: ShopAction,
   timestamp: number;
+  type: ShopStatusType;
 }
 
-export enum ShopAction {
-  SELL = "SELL",
-  BUY = "BUY",
-  CANCEL = "CANCEL",
+export enum ShopStatusType {
+  Order = "ORDER",
+  Trade = "TRADE",
 }
