@@ -6,6 +6,9 @@ export interface CandyShop {
   feeAccountAddress: string;
   feeSplit: number;
   feeRate: number;
+  symbol: string;
+  decimals: number;
+  logoURI: string;
   txHashAtCreation: string;
   hasWhitelist: number;
 }
