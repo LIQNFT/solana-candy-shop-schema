@@ -28,4 +28,7 @@ export interface Order {
     txHash: string;
     treasuryMint: string;
     candyShopCreatorAddress: string;
+    symbol: string;
+    decimals: number;
+    logoURI: string;
 }
