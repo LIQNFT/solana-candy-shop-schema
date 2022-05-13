@@ -30,5 +30,4 @@ export interface Order {
     candyShopCreatorAddress: string;
     symbol?: string;
     decimals?: number;
-    logoURI?: string;
 }
